@@ -8,15 +8,7 @@ const spinChamber = () => {
 };
 
 // Remove the // below and complete the commented lines
-let bulletPosition = 6;
-
-const fireGun = (chamberPosition) => {
-    if(chamberPosition === bulletPosition){
-        return ("You're dead!")
-    }
-    else if(chamberPosition !== bulletPosition){
-        return ("Keep playing!");
-    }
+const fireGun = (bulletPosition) => {
     // if (...) return ("You're dead!");
     // else return ("Keep playing!");
 };
